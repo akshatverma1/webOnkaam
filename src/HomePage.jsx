@@ -1,13 +1,14 @@
 import React from 'react';
+import Navbarfunction from './Navbar';
+import Footerfunction from './Footer';
+
+
 
 export default function homepageFunction(){
     return(
         <div>
-        <img src={"assets/ii.jpeg"} alt="akshat0"/>
-        <img src="\src\assets\Logo.svg" alt="akshatjoijh"height="200px" width="200px"/>
-        <h4>
-            Home Page
-        </h4>
+            <Navbarfunction></Navbarfunction>
+            <Footerfunction></Footerfunction>
         </div>
     )
 }
