@@ -1,0 +1,8 @@
+.footerClass{
+    height: 200px;
+    background-color: black;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+}
