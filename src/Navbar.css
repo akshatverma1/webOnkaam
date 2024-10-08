@@ -1,0 +1,21 @@
+.searchClass input{
+    background-color: white;
+    width: 320px;
+    padding: 2px;
+    border: 2px solid rgb(113, 113, 113);
+    height: 35px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    color: black;
+}
+.searchClass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: auto;
+    height: 70px;
+}
