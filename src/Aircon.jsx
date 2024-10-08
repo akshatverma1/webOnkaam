@@ -1,56 +1,67 @@
 import React from 'react';
-export default function Airfunction(){
+import "./Aircon.css";
+export default function Airfunction() {
     return (
-        <div className='servicesClass'>
-            <h3 style={{fontSize:"larger",opacity:0.8}}>Repair & Maintenances</h3>
-            <div className='servicesContainer'>
-                <div className='serCon'>
-                <div className='ser'>
-                    <img src='src/assets/airconn.svg' width="90px" height="50px"></img>
+        <div className='servicesClasstwo'>
+            <div className='showClass'>
+                <h3 style={{ fontSize: "larger", opacity: 0.8 }}>Repair & Maintenances</h3>
+                <h4>View All</h4>
+            </div>
+            <div className='servicesContainertwo'>
+                <div className='objectName'>
+                    <div className='re'>
+                    </div>
+                    <p>AC Repair</p>
+                    <p>&</p>
+                    <p>Service</p>
                 </div>
-                <p>AC Repair &</p>
-                <p>Service</p>
+                <div className='objectName'>
+                    <div className='re'>
+                    </div>
+                    <p>Refrigerator</p>
+                    <p>Repair</p>
                 </div>
-
-                <div className='serCon'>
-                <div className='ser'>
-                    <img src='src/assets/painterthird.svg' width="90px" height="50px"></img>
+                <div className='objectName'>
+                    <div className='re'>
+                    </div>
+                    <p>Gas Stove</p>
+                    <p>Repair</p>
                 </div>
-                <p>Painter</p>
-                <p></p>
+                <div className='objectName'>
+                    <div className='re'>
+                    </div>
+                    <p>Geyser</p>
+                    <p>Repair</p>
                 </div>
-                <div className='serCon'>
-                <div className='ser'>
-                <img src='src/assets/plumber_third.svg' width="90px" height="50px"></img>
+                <div className='objectName'>
+                    <div className='re'>
+                    </div>
+                    <p>Microwave</p>
+                    <p>Repair</p>
                 </div>
-                <p>Plumber</p>
+                <div className='objectName'>
+                    <div className='re'>
+                    </div>
+                    <p>RO Water</p>
+                    <p>Purifier Repair</p>
                 </div>
-                <div className='serCon'>
-                <div className='ser'>
-                <img src='src/assets/electrician_s.svg' width="90px" height="50px"></img>
+                <div className='objectName'>
+                    <div className='re'>
+                    </div>
+                    <p>Washing Machine</p>
+                    <p>Repair</p>
                 </div>
-                <p>Electrician</p>
+                <div className='objectName'>
+                    <div className='re'>
+                    </div>
+                    <p>TV Repair</p>
                 </div>
-                <div className='serCon'>
-                <div className='ser'>
-                <img src='src/assets/cleaning.svg' width="90px" height="50px"></img>
-                </div>
-                <p>Full Home</p>
-                <p>Deep Cleaning</p>
-                </div>
-                <div className='serCon'>
-                <div className='ser'>
-                <img src='src/assets/manhair.svg' width="90px" height="50px"></img>
-                </div>
-                <p>Men's </p>
-                <p>Salons</p>
-                </div>
-                <div className='serCon'>
-                <div className='ser'>
-                <img src='src/assets/womenhair.svg' width="90px" height="50px"></img>
-                </div>
-                <p>Women </p>
-                <p>Salons</p>
+                <div className='objectName'>
+                    <div className='re'>
+                    </div>
+                    <p>Laptop Repair</p>
+                    <p>&</p>
+                    <p>Service</p>
                 </div>
             </div>
         </div>
