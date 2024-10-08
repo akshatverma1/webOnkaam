@@ -1,8 +1,22 @@
 .footerClass{
-    height: 200px;
-    background-color: black;
+    height: 60px;
+    background-color: white;
+    border-top: 4px solid #dcdcdcf3;;
     width: 100%;
     overflow: hidden;
     position: fixed;
     bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.Icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    background-color: white
+}
+.Icons span{
+    font-size: xx-large;
 }
