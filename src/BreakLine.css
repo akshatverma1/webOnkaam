@@ -1,5 +1,6 @@
 .breaklineClass{
+    margin-top: 1rem;
     width:strech;
-    height: 0.15rem;
-    background-color: rgba(74, 74, 74, 0.283)
+    height: 0.5rem;
+    background-color: #f5f5f5;
 }
