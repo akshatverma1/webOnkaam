@@ -10,7 +10,6 @@ export default function homepageFunction(){
         <div>
             <Navbarfunction></Navbarfunction>
             <Bottomnavfunction></Bottomnavfunction>
-            <Footerfunction></Footerfunction>
         </div>
     )
 }
