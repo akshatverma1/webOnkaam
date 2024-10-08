@@ -4,6 +4,7 @@ import Footerfunction from './Footer';
 import Bottomnavfunction from './Bottom_navigation';
 import Servicesfunction from './Services';
 import BreakLO from './BreakLine';
+import Airfunction from './Aircon';
 
 
 
@@ -14,6 +15,7 @@ export default function homepageFunction(){
             <Servicesfunction></Servicesfunction>
             <Bottomnavfunction></Bottomnavfunction>
             <BreakLO></BreakLO>
+            <Airfunction></Airfunction>
         </div>
     )
 }

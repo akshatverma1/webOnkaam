@@ -1,11 +1,8 @@
 import React from 'react';
-import "./Services.css";
-
-
-export default function Servicesfunction(){
-    return(
+export default function Airfunction(){
+    return (
         <div className='servicesClass'>
-            <h3>Explore all services</h3>
+            <h3 style={{fontSize:"larger",opacity:0.8}}>Repair & Maintenances</h3>
             <div className='servicesContainer'>
                 <div className='serCon'>
                 <div className='ser'>
