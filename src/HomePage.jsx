@@ -16,6 +16,8 @@ export default function homepageFunction(){
             <Bottomnavfunction></Bottomnavfunction>
             <BreakLO></BreakLO>
             <Airfunction></Airfunction>
+            <BreakLO></BreakLO>
+            <Footerfunction></Footerfunction>
         </div>
     )
 }
