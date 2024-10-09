@@ -1,7 +1,7 @@
 .footerClass{
-    height: 45px;
+    height: 50px;
     background-color: rgb(255, 255, 255);
-    border-top: 4px solid #dcdcdcf3;;
+    border-top: 3px solid #dcdcdcf3;;
     width: 100%;
     overflow: hidden;
     position: fixed;

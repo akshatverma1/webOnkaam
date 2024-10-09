@@ -1,10 +1,10 @@
 import React from 'react';
 import "./Aircon.css";
-export default function Airfunction() {
+export default function Airfunction({Heading}) {
     return (
         <div className='servicesClasstwo'>
             <div className='showClass'>
-                <h3 style={{ fontSize: "larger", opacity: 0.8 }}>Repair & Maintenances</h3>
+                <h3 style={{ fontSize: "larger", opacity: 0.8 }}>{Heading}</h3>
                 <h4>View All</h4>
             </div>
             <div className='servicesContainertwo'>
