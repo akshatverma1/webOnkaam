@@ -15,8 +15,9 @@ export default function homepageFunction(){
             <Servicesfunction></Servicesfunction>
             <Bottomnavfunction></Bottomnavfunction>
             <BreakLO></BreakLO>
-            <Airfunction></Airfunction>
+            <Airfunction Heading="Repair & Maintenance"></Airfunction>
             <BreakLO></BreakLO>
+            <Airfunction Heading="Electrical Services"></Airfunction>
             <Footerfunction></Footerfunction>
         </div>
     )
