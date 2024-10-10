@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 export default function bnav(){
     return(
         <div className="footerClass">
-            <Link to="/error" className='Icons'><i className="fas fa-vr-cardboard fa-lg"></i>
+            <Link to="/ar" className='Icons'><i className="fas fa-vr-cardboard fa-lg"></i>
             <p>AR</p>
             </Link>
             <div className='Icons'><i className="fas fa-clipboard-list fa-lg"></i>

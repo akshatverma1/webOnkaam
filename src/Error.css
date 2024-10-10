@@ -5,12 +5,16 @@
     align-items: center;
     margin: 1rem;
     padding: 0.7rem;
-
+    margin-top: 9rem;
 }
-
+h1{
+    text-align: center;
+}
 .fourerr{
     border-radius: 20px;
     display: flex;
+    align-self: center;
+    text-align: center;
     justify-content: center;
     align-items: center;
     width: 300px;
@@ -38,4 +42,7 @@ button{
     -moz-border-radius:30px;
     -ms-border-radius:30px;
     -o-border-radius:30px;
+}
+p{
+    text-align: center;
 }
