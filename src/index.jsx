@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import HomePage from "./HomePage.jsx";
 import Errorr from './Error.jsx';
 import Bottomnavfunction from './Bottom_navigation.jsx';
-
+import Bnav from './Bottom_nav.jsx';
 createRoot(document.getElementById('root')).render(
   <>
     <BrowserRouter>
@@ -16,6 +16,6 @@ createRoot(document.getElementById('root')).render(
         <Route path='/' element={<HomePage/>} />
       </Routes>
     </BrowserRouter>
-    <Bottomnavfunction></Bottomnavfunction>
+    <Bnav></Bnav>
     </>
 )
