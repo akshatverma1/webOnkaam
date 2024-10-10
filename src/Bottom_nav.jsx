@@ -10,7 +10,7 @@ export default function bnav(){
             <Link to="/booking" className='Icons'><i className="fas fa-clipboard-list fa-lg"></i>
             <p>Booking</p></Link>
             <Link to="/" className='Icons'>
-                <i className="fas fa-house-user fa-lg"></i>
+                <img src='./src/assets/homewebtwo.svg'></img>
             <p>Home</p></Link>
             <Link to="/assistant" className='Icons'><i className="fas fa-comment-dots fa-lg"></i>
             <p>Assistant</p></Link>
