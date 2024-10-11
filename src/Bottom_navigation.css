@@ -19,16 +19,11 @@
     justify-content: space-evenly;
     width: 40px;
     /* background-color: #054861 */
-}
-.Icons i{
-    margin-top: 0.7rem;
-}
+    padding-top: 10px;
+    text-decoration: none;
+}  
 .Icons p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 0.8rem;
 
-}
-.Icons{
-    padding-top: 10px;
-    text-decoration: none;
 }

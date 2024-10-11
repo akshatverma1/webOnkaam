@@ -31,7 +31,7 @@ export default function Navbarfunction() {
         <>
             <div className='location'>
                 <div className='headingLocation'>
-                <h1>📍 - {apii.city},{apii.state},{apii.postcode}</h1>
+                <h1>{apii.city_district},{apii.state},{apii.postcode}</h1>
                 </div>
                 <div className='searchClass'>
                     <input placeholder='  🔍  Search Anything'></input>
