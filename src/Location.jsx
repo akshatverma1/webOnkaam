@@ -1,13 +1,11 @@
-import React from 'react';
 import { useEffect } from "react";
-import { useState } from 'react';
-import "./Navbar.css"
-import BreakLO from './BreakLine';
-export default function Navbarfunction() {
+import React from 'react';
+import { useState } from "react";
+
+export default function Locatdect(){
 
     let[apii,setapii] = useState("");
-    // let {city} = apii.data.address;
-    console.log(apii);
+    console.log(apii.data);
     
     useEffect(()=>{
         navigator.geolocation.getCurrentPosition(pos=>{
@@ -17,7 +15,7 @@ export default function Navbarfunction() {
             async function apies(){
                 try{
                     let appp = await axios.get(url);
-                    setapii(appp.data.address);
+                    setapii(appp);
                     
                 }catch(err){
                     console.log(err);
@@ -26,17 +24,8 @@ export default function Navbarfunction() {
             apies();
         })
     },[])
-
     return (
         <>
-            <div className='location'>
-                <div className='headingLocation'>
-                <h1>📍 - {apii.city},{apii.state},{apii.postcode}</h1>
-                </div>
-                <div className='searchClass'>
-                    <input placeholder='  🔍  Search Anything'></input>
-                </div>
-            </div>
-            </>
+        </>
     )
 }

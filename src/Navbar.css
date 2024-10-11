@@ -18,7 +18,8 @@
     align-items: center;
     flex-direction: column;
     width: auto;
-    height: 70px;
+    height: 55px;
+    margin-bottom: 10px;
 }
 .location{
     background-color: black;
@@ -27,7 +28,7 @@
 .location h1{
     color: white;
     font-size: large;
-    margin-top: 0.5rem;
+    margin-top: 0.7rem;
 }
 .headingLocation{
     display: flex;
